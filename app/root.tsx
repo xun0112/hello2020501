@@ -1,7 +1,6 @@
 import {
   Links,
   Meta,
-  Outlet,
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
@@ -41,5 +40,5 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />;
+  return <div className="text-4xl font-bold text-blue-500 shadow-lg p-4 rounded bg-gradient-to-r from-purple-400 to-pink-600 text-white">Hello World!</div>;
 }
